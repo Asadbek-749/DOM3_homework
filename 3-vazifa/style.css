@@ -21,20 +21,17 @@
 }
 
 .car--left {
-  /* left: 50px; */
   transform: translateX(-380px);
-  transition: all 0.5s ease;
+  transition: all 1.2s ease;
 }
 
 .car--right {
-  /* right: 50px; */
   transform: translateX(380px);
-  transition: all 0.5s ease;
+  transition: all 1.2s ease;
 }
 .car--center {
-  /* right: 50px; */
   transform: translate(10px);
-  transition: all 0.5s ease;
+  transition: all 1.2s ease;
 }
 
 .car img {

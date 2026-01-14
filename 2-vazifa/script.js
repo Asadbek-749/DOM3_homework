@@ -1,6 +1,7 @@
 const carElement = document.querySelector(".car");
 
 document.addEventListener("keydown", (e) => {
+  // carElement.classList.remove("car--avtive",)
   if (e.key === "r") {
     carElement.classList.add("car--avtive");
     document.body.classList.add("body--active");
